@@ -27,7 +27,7 @@ El resultado se guardará en input y se subira a la web.
 * En segundo lugar se subirán los datos al segmento de Google Cloud dentro de la carpeta 'csv'.
 
 * En tercer lugar, se creará un cluster en Google Cloud de 3 contenedores, 1 master y 2 workers. 
-Se crearán en la Región de europe-west2
+Se crearán en la Región de [europe-west2](https://github.com/enkhara/PracticaDBA/blob/master/Regiones-google-cloud.jpg)
 
 crear una tabla con el csv de airbnb, una para transporte del csv obtenido de la página de tmb.cat,   y otra de los lugares turísticos obtenido de la página barcelonaturismo.com, de esta mima también se obtendrían la ubicación de parques infantiles.
 
