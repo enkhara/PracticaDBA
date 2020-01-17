@@ -4,10 +4,10 @@
 
 La finalidad de la práctica es facilitar el turísmo de las familias que deseen visitar la ciudad de Barcelona.
  
-Por tanto, se obtendrán datos de diferentes páginas web como transporte, sitios turísticos en Barcelona ciudad, para crear un top 50 de los mejores paratamentos, basandonos en el número de habitaciones, la ubicación, servicios del apartamento, tales como lavadora y ascensor, y el precio por noche.
+Por tanto, se obtendrán datos de diferentes páginas web como transporte y sitios turísticos en Barcelona ciudad, para crear un top 50 de los mejores apartamentos, basándonos en el número de habitaciones, la ubicación, servicios del apartamento, tales como lavadora y ascensor, y el precio por noche.
  
 ### Nombre del producto
-Top 50 turismo familiar en Barcelona ciudad
+Top 50 turismo familiar en Barcelona ciudad.
 
 ### Estrategia del DAaaS
 
@@ -16,9 +16,20 @@ Creación de página web con python y flask, sobre los 50 mejores apartamentos e
 Se volverán a obtener los csv de airbnb y transportes de Barcelona, y se realizará un crawler con scrapy de [los parques](https://www.barcelona.cat/ca/que-pots-fer-a-bcn/parcs-i-jardins/tots-els-parcs).
 Se subirán al segmento de cloud.
 Se creará el cluster y se realizarán de nuevo las tareas.
-El resultado se guardará en input y se subira a la web.
+
+El resultado se guardará en la carpeta inputm en el segmento de cloud, y se subira a la web.
 
 #### Arquitectura
+
+Arquitectura Cloud basada en Scrapy + Google Cloud Storage + Hive + Dataproc.
+
+Crawler con scrapy que leerá de [parques de Barcelona](https://www.barcelona.cat/ca/que-pots-fer-a-bcn/parcs-i-jardins/tots-els-parcs) y guardará los datos obtenidos en un csv, que se subirá a un segmento en Google Cloud.
+
+Se insertará en dataset de airbnb y el de TMB en HIVE.
+Todos ellos se colocarán en un segmento de Google Cloud.
+
+
+
 
 #### Obtener datos y enriquecerlos:
 
@@ -56,3 +67,11 @@ Se ha calculado 1 km, por que la media de tiempo en adultos para recorrerlo est�
 ### Operating Model
 
 Montar una web con el resultado obtenido de la query. 
+
+### Desarrollo
+
+
+### Diagrama
+
+### Crawler
+
