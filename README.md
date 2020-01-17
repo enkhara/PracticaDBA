@@ -28,8 +28,12 @@ Crawler con scrapy que leerá de [parques de Barcelona](https://www.barcelona.ca
 Se insertará en dataset de airbnb y el de TMB en HIVE.
 Todos ellos se colocarán en un segmento de Google Cloud.
 
+Desde Google Storage se crearan 3 tablas de HIVE.
+Se realizará una query para obtener los apartamentos que dispongan de dos o más habitaciones.
+Después con los datos obtenidos se hará una query con un Join que reste la distancia entre cada airbnb y los parques con un máximo de 1km. 
+Por último se realizará una query con un Join que reste la distancia entre cada airbnb y las paradas de transporte público.
 
-
+El resultado de la query estará en Google Storage en el segmento dentro de la carpeta /output.
 
 #### Obtener datos y enriquecerlos:
 
