@@ -75,3 +75,4 @@ Montar una web con el resultado obtenido de la query.
 
 ### Crawler
 
+https://colab.research.google.com/github/enkhara/PracticaDBA/blob/master/Georgina_SCRAPY.ipynb#scrollTo=Lvz1BspfpvTl
