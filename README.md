@@ -44,7 +44,8 @@ Modo del clúster:
  -Nodo maestro:
  
 ![imágen configuración](https://github.com/enkhara/PracticaDBA/blob/master/Config-nodo-maestro.jpg)
--Nodos workers:
+
+Nodos workers:
 
 ![imágen configuración](https://github.com/enkhara/PracticaDBA/blob/master/Config-nodos-workers.jpg)
 
