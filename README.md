@@ -29,7 +29,7 @@ El resultado se guardará en input y se subira a la web.
 * En tercer lugar, se creará un cluster en Google Cloud de 3 contenedores, 1 master y 2 workers. 
 Se crearán en la Región de [europe-west2](https://github.com/enkhara/PracticaDBA/blob/master/Regiones-google-cloud.jpg) en la Zona [europe-west2-c](https://github.com/enkhara/PracticaDBA/blob/master/Zonas-google-cloud.jpg).
 Modo del clúster:
-``Estándar (nodos maestros: 1; nodos de trabajo: N)
+``Estándar (nodos maestros: 1; nodos de trabajo: N)``
  -Nodo maestro:
 ![imágen configuración](https://github.com/enkhara/PracticaDBA/blob/master/Config-nodo-maestro.jpg)
 -Nodos workers:
