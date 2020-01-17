@@ -31,9 +31,12 @@ Se crearán en la Región de [europe-west2](https://github.com/enkhara/PracticaD
 Modo del clúster:
 ``Estándar (nodos maestros: 1; nodos de trabajo: N)``
  -Nodo maestro:
+ 
 ![imágen configuración](https://github.com/enkhara/PracticaDBA/blob/master/Config-nodo-maestro.jpg)
 -Nodos workers:
+
 ![imágen configuración](https://github.com/enkhara/PracticaDBA/blob/master/Config-nodos-workers.jpg)
+
 Seleccionaremos el segmento en el que hemos subido todos los datos *.csv.
 
 
