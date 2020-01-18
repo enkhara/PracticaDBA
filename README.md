@@ -42,17 +42,6 @@ El resultado de la query estará en Google Storage en el segmento dentro de la c
 * En segundo lugar se subirán los datos al segmento de Google Cloud dentro de la carpeta 'csv'.
 
 * En tercer lugar, se creará un cluster en Google Cloud de 3 contenedores, 1 master y 2 workers. 
-Se crearán en la Región de [europe-west2](https://github.com/enkhara/PracticaDBA/blob/master/Regiones-google-cloud.jpg) en la Zona [europe-west2-c](https://github.com/enkhara/PracticaDBA/blob/master/Zonas-google-cloud.jpg).
-Modo del clúster:
-``Estándar (nodos maestros: 1; nodos de trabajo: N)``
-
- -Nodo maestro:
- 
-![imágen configuración](https://github.com/enkhara/PracticaDBA/blob/master/Config-nodo-maestro.jpg)
-
-Nodos workers:
-
-![imágen configuración](https://github.com/enkhara/PracticaDBA/blob/master/Config-nodos-workers.jpg)
 
 -----------------------------------------------------------per revisar------------------------
 crear una tabla con el csv de airbnb, una para transporte del csv obtenido de la página de tmb.cat,   y otra de los lugares turísticos obtenido de la página barcelonaturismo.com, de esta mima también se obtendrían la ubicación de parques infantiles.
@@ -71,6 +60,19 @@ Se ha calculado 1 km, por que la media de tiempo en adultos para recorrerlo est�
 Montar una web con el resultado obtenido de la query. 
 
 ### Desarrollo
+
+#### Creación del clúster en Google Cloud:
+Se crearán en la Región de [europe-west2](https://github.com/enkhara/PracticaDBA/blob/master/Regiones-google-cloud.jpg) en la Zona [europe-west2-c](https://github.com/enkhara/PracticaDBA/blob/master/Zonas-google-cloud.jpg).
+Modo del clúster:
+``Estándar (nodos maestros: 1; nodos de trabajo: N)``
+
+ -Nodo maestro:
+ 
+![imágen configuración](https://github.com/enkhara/PracticaDBA/blob/master/Config-nodo-maestro.jpg)
+
+Nodos workers:
+
+![imágen configuración](https://github.com/enkhara/PracticaDBA/blob/master/Config-nodos-workers.jpg)
 
 * Query de HIVE.
 * Pantallazo final.
