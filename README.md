@@ -44,7 +44,7 @@ El resultado de la query estará en Google Storage en el segmento dentro de la c
 * En tercer lugar, se creará un cluster en Google Cloud de 3 contenedores, 1 master y 2 workers. 
 
 -----------------------------------------------------------per revisar------------------------
-crear una tabla con el csv de airbnb, una para transporte del csv obtenido de la página de tmb.cat,   y otra de los lugares turísticos obtenido de la página barcelonaturismo.com, de esta mima también se obtendrían la ubicación de parques infantiles.
+* En cuarto lugar, se crearán las tabla con el csv de airbnb, una para transporte del csv obtenido de la página de tmb.cat,   y otra de los parques infantiles.
 
 Una vez tengamos toda esa información, habría que empezar descartando los pisos tengan menos de dos habitaciones o camas, y a partir de alli hacer un join, no se muy bien aún que datos mostraría por por pantalla supongo que lo suyo sería el número de habitaciones, la url al apartamento y el precio por noche
 
@@ -98,6 +98,8 @@ CREATE TABLE  tmb (CODI_CAPA STRING,CAPA_GENERICA STRING, NOM_CAPA STRING, ED50_
 * Pantallazo final.
 
 ### Diagrama
+
+https://github.com/enkhara/PracticaDBA/blob/master/DiagramaPracticaBDA.jpg
 
 ### Crawler
 
